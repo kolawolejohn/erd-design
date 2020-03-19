@@ -56,7 +56,7 @@ CREATE TABLE `documents` (
   `url` VARCAHR,
   `created_at` CURRENT_TIMESTAMP,
   `modified_at` CURRENT_TIMESTAMP,
-  `status_id` ENUM ('active', 'inactive', 'cancelled', 'failed', 'successful')
+  `status` ENUM ('active', 'inactive', 'cancelled', 'failed', 'successful')
 );
 
 CREATE TABLE `document_types` (
